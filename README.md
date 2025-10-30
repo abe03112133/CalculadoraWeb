@@ -29,20 +29,20 @@ Calculadora web desarrollada con Spring Boot que permite realizar operaciones ma
 ## Estructura del Proyecto
 
 calculadora-spring/
-├── src/
-│   ├── main/
-│   │   ├── java/com/calculadora/
-│   │   │   ├── CalculadoraApplication.java
-│   │   │   ├── controller/
-│   │   │   ├── service/
-│   │   │   ├── model/
-│   │   │   └── exception/
-│   │   └── resources/
-│   │       ├── static/
-│   │       ├── templates/
-│   │       └── application.properties
-│   └── test/
-└── pom.xml
+  src/
+    main/
+        java/com/calculadora/
+              CalculadoraApplication.java
+              controller/
+              service/
+              model/
+              exception/
+        resources/
+              static/
+              templates/
+              application.properties
+        test/
+    pom.xml
 
 ## Requisitos Previos
 
