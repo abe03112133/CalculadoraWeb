@@ -13,14 +13,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2024-10-21
  */
 @SpringBootApplication
-public class Application {
+public class CalculadoraApplication {
 
     /**
      * Método principal que inicia la aplicación Spring Boot
      * @param args Argumentos de línea de comandos
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CalculadoraApplication.class, args);
         System.out.println("===========================================");
         System.out.println("Calculadora Web iniciada correctamente");
         System.out.println("Accede en: http://localhost:8080");
