@@ -1,4 +1,4 @@
-package com.calculadora.exception;
+package com.calculadora.exeption;
 
 import com.calculadora.model.OperacionResponse;
 import org.springframework.http.HttpStatus;
