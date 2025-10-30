@@ -94,9 +94,7 @@ function mostrarAlerta(mensaje, tipo) {
  * @param {string} str - Cadena a capitalizar
  * @returns {string} Cadena capitalizada
  */
-function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}
+function capitalize(str) {return str.charAt(0).toUpperCase() + str.slice(1);}
 
 /**
  * Limpia todos los campos del formulario
